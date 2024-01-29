@@ -1,0 +1,15 @@
+.cards__list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 48px;
+  padding-left: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .cards__list {
+    padding-left: 62px;
+  }
+}

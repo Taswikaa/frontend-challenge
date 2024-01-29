@@ -1,0 +1,13 @@
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding: 23px 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .header__link {
+    padding: 23px;
+  }
+}

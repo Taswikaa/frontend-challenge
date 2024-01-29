@@ -1,0 +1,10 @@
+.header {
+  background-color: #2196F3;
+  padding-left: 45px;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding-left: 62px;
+  }
+}
